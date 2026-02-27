@@ -2,15 +2,16 @@
 
 public class Account {
    // Add your code here
-   public static string Name;
+   public static string Name = "";
    public static string ChangeName(string NewName){
-      Name = NewName;
+      NewName = Name;
       return NewName;
    }
    static NameChange(){
       Name = "Main Account";
    }
 }
+
 
 
 
