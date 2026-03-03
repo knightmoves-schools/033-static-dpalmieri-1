@@ -8,9 +8,10 @@ public class Account {
    }
    public static string ChangeName(string NewName){
       Name = NewName;
-      return NewName;
+      return Name;
    }
 }
+
 
 
 
