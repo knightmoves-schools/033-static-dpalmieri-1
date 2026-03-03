@@ -9,9 +9,9 @@ public class Account {
    }
    static NameChange(){
       Name = "Main Account";
-      return Name;
    }
 }
+
 
 
 
