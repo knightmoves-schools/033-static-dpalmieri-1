@@ -4,7 +4,7 @@ public class Account {
    // Add your code here
    public static string Name;
    
-   static NameChange(){
+   static Account(){
       Name = "Main Account";
    }
    
@@ -13,5 +13,6 @@ public class Account {
       return Name;
    }
 }
+
 
 
